@@ -1,0 +1,10 @@
+[Unit]
+Description=acpi_interrupt_disable
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/bin/bash /usr/local/bin/acpi_interrupt_disable
+
+[Install]
+WantedBy=multi-user.target

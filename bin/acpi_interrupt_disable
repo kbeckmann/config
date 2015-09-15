@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Disables an often called but unwanted interrupt. Might extend battery life.
+
+echo disable > /sys/firmware/acpi/interrupts/gpe07
+

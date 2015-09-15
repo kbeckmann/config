@@ -1,0 +1,13 @@
+[Unit]
+Description=i3lock
+Before=sleep.target
+
+[Service]
+User=konrad
+Type=forking
+Environment=DISPLAY=:0.0
+ExecStart=/usr/bin/bash /home/konrad/.i3/start_screensaver.sh
+
+[Install]
+WantedBy=sleep.target hybrid-sleep.target
+

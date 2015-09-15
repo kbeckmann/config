@@ -1,0 +1,23 @@
+! xterm ----------------------------------------------------------------------
+
+xterm*VT100.geometry:     80x25
+xterm*faceName:           Inconsolata:style=Regular:size=14
+!xterm*faceName:           Terminus:style=Regular:size=11
+!xterm*font:              -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*locale:             true
+xterm*eightBitInput:      true
+xterm*saveLines:          102400
+xterm*scrollKey:          true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          true
+xterm*selectToClipboard:  true
+xterm*rightScrollBar:     true
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+xterm*background:         rgb:00/00/00
+xterm*foreground:         rgb:b2/b2/b2
+XTerm*reverseVideo:       false
+
